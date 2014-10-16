@@ -1,0 +1,14 @@
+! git rid of scrollbar
+urxvt.scrollBar: false
+
+! terminal colors ------------------------------------------------------------
+
+! tangoesque scheme
+urxvt*background: #111111
+urxvt*foreground: #babdb6
+
+! rxvt-unicode
+ urxvt.urgentOnBell:  true
+
+! xterm
+XTerm*bellIsUrgent:  true
