@@ -1,0 +1,2 @@
+supertab.vmb: call delete('/home/ketsol/.vim/doc/supertab.txt')|call delete('/home/ketsol/.vim/plugin/supertab.vim')
+camelcasemotion.vba: call delete('/home/ketsol/.vim/autoload/camelcasemotion.vim')|call delete('/home/ketsol/.vim/plugin/camelcasemotion.vim')|call delete('/home/ketsol/.vim/doc/camelcasemotion.txt')
