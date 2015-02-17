@@ -3,9 +3,73 @@ urxvt.scrollBar: false
 
 ! terminal colors ------------------------------------------------------------
 
-! tangoesque scheme
-urxvt*background: #111111
-urxvt*foreground: #babdb6
+! try a light scheme 
+!urxvt*background: #111111
+!urxvt*foreground: #babdb6
+!urxvt*background: #babdb6
+!urxvt*foreground: #111111
+
+
+! Light
+!#define S_base03 #fdf6e3
+!#define S_base02 #eee8d5
+!#define S_base01 #93a1a1
+!#define S_base00 #839496
+!#define S_base0 #657b83
+!#define S_base1 #586e75
+!#define S_base2 #073642
+!#define S_base3 #002b36
+!To only apply colors to your terminal, for example, prefix
+!the color assignment statement with its name. Example:
+!
+! URxvt*background: S_base03
+!urxvt*background: S_base03
+!urxvt*foreground: S_base0
+!urxvt*fading: 40
+!urxvt*fadeColor: S_base03
+!urxvt*cursorColor: S_base1
+!urxvt*pointerColorBackground: S_base01
+!urxvt*pointerColorForeground: S_base1
+
+! Lucius theme, light
+#define Lucius_black #626262
+#define Lucius_red #af0000
+#define Lucius_red2 #FF0000
+#define Lucius_green #008700
+#define Lucius_brown #af8700
+#define Lucius_blue #87afd7
+#define Lucius_purple #870087
+#define Lucius_cyan #0087af
+#define Lucius_light_grey #9e9e9e
+#define Lucius_dark_grey #8a8a8a
+#define Lucius_light_red #d70000
+#define Lucius_light_green #00af00
+#define Lucius_yellow #ffaf00
+#define Lucius_light_blue #0087d7
+#define Lucius_light_purple #af00af
+#define Lucius_light_cyan #00afd7
+#define Lucius_white #eeeeee
+
+urxvt*background : Lucius_white
+urxvt*foreground : Lucius_black
+urxvt*cursorColor : Lucius_brown
+urxvt*color0 : Lucius_black
+urxvt*color1 : Lucius_red
+urxvt*color2 : Lucius_green
+urxvt*color3 : Lucius_brown
+urxvt*color4 : Lucius_blue
+urxvt*color5 : Lucius_purple
+urxvt*color6 : Lucius_cyan
+urxvt*color7 : Lucius_light_grey
+urxvt*color8 : Lucius_dark_grey
+urxvt*color9 : Lucius_light_red
+urxvt*color10 : Lucius_light_green
+urxvt*color11 : Lucius_yellow
+urxvt*color12 : Lucius_light_blue
+urxvt*color13 : Lucius_light_purple
+urxvt*color14 : Lucius_light_cyan
+urxvt*color15 : Lucius_white
+
 
 ! rxvt-unicode
  urxvt.urgentOnBell:  true

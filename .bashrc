@@ -109,4 +109,9 @@ if ! shopt -oq posix; then
   fi
 fi
 
+# kill bell
+if [ -n "$DISPLAY" ]; then
+  xset b off
+fi
+
 eval $(keychain --eval --agents ssh -Q --quiet ~/.ssh/id_rsa)
